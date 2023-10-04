@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Видеоплеер</title>
+  <link rel="icon" type="image/ico" href="./static/favicon.ico">  
+  <link rel="stylesheet" href="./static/font_awesome/font-awesome.min.css">
+  <link rel="stylesheet" href="./static/video_player.css">
+  <meta charset="utf-8">
+</head>
+<body>
+  <div id="player" class="js-video-player">
+    <div class="js-video-container"></div>
+    <div class="vp-controls">
+      <button class="vp-button js-play-button" aria-hidden="true"><i  class="fa fa-play"></i></button>
+      <button class="vp-button js-pause-button" hidden="true" aria-hidden="true"><i  class="fa fa-pause"></i></button>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://unpkg.com/playable@2.10.3/dist/statics/playable.bundle.min.js"></script>
+  <script src="./static/player.js"></script>
+
+  <script type="text/javascript">
+    createPlayer({elementId: 'player'});
+  </script>
+
+</body>
+</html>

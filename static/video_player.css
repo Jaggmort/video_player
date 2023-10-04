@@ -1,0 +1,24 @@
+.js-video-player {
+    width: 800px;
+    height: 600px;
+}
+
+.js-video-container {
+    width: 100%;
+    height: 100%;
+}
+
+.vp-controls {
+    align-items: center;
+    margin:auto;
+    background-color: black;
+  }
+
+.vp-button {
+    color: white;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
