@@ -14,14 +14,14 @@
 .vp-controls {
     display: flex;    
     align-items: center;
-    margin:auto;
     background-color: black;
   }
 
 .vp-button {
     color: white;
-    width: 20px;
-    height: 20px;
+    font-size: 30px;    
+    width: 40px;
+    height: 40px;
     background-color: transparent;
     cursor: pointer;
     border: none;
