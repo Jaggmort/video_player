@@ -5,7 +5,7 @@
 
 Видео плеер можно запустить из файла index.html
 
-Пример можно посмотреть по [адресу](![image](https://github.com/Jaggmort/video_player/))
+Пример можно посмотреть по [адресу](https://github.com/Jaggmort/video_player/)
 
 
 ## Цели проекта
