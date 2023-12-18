@@ -63,6 +63,7 @@
   }
 
 .circle {
+    opacity: 0;
     height: 8px;
     width: 8px;
     display: flex;    
@@ -70,5 +71,13 @@
     background-color: red;
     border-radius: 50%;
     border: solid white;
-    margin-left: -4px;    
+    margin-left: -4px;
+    transition-duration: 300ms;        
+    transition-timing-function: ease-out;    
+}
+
+.vp-progress-bar:hover .circle {
+    opacity: 1;
+    transition-duration: 300ms;  
+    transition-timing-function: ease-in;    
 }
