@@ -1,4 +1,4 @@
-.js-video-player {
+.vp-video-player {
     width: 800px;
     height: 600px;
     display: flex;
@@ -6,7 +6,7 @@
     box-shadow: 1px 1px 15px 5px gray;
 }
 
-.js-video-container {
+.vp-video-container {
     width: 800px;
     height: 600px;
 }
